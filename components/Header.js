@@ -64,7 +64,7 @@ export default function Header() {
 													onClick={handleCurrentPage}
 													className={classNames(
 														item.id === currentPage
-															? 'text-slate-900 dark:text-white'
+															? 'text-black dark:text-white'
 															: '',
 														'px-0 py-1 rounded-md text-sm font-medium link-underline text-amber-500'
 													)}

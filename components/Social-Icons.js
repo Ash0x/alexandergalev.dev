@@ -7,7 +7,7 @@ export default function SocialIcons() {
 		<div className='flex items-center'>
 			<Link href='/Resumé.pdf'>
 				<a
-					className='flex items-center hover:text-amber-500 dark:hover:text-white py-1 px-3 border-2 border-amber-500 hover:border-red-700 rounded focus:ring-2'
+					className='flex items-center hover:text-amber-500 dark:hover:text-white py-1 px-3 border-2 hover:drop-shadow-md border-amber-500 hover:border-red-700 rounded focus:ring-2'
 					target='_blank'
 					rel='noreferrer'
 					aria-label='View Resume'
@@ -19,7 +19,7 @@ export default function SocialIcons() {
 			</Link>
 			<Link href='mailto:alex.galev@yahoo.com'>
 				<a
-					className='m-1.5 text-slate-900 dark:text-amber-500 hover:text-amber-500 dark:hover:text-white'
+					className='ml-5 m-1.5 text-slate-900 dark:text-amber-500 hover:text-amber-500 dark:hover:text-white'
 					target='_blank'
 					rel='noreferrer'
 					aria-label='Email'

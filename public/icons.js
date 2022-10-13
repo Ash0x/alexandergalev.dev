@@ -58,17 +58,20 @@ export const PaperClipIcon = () => {
 export const EmailIcon = () => {
 	return (
 		<svg
-			stroke='currentColor'
-			fill='currentColor'
-			strokeWidth='0'
-			viewBox='0 0 24 24'
-			height='1.5em'
-			width='1.5em'
 			xmlns='http://www.w3.org/2000/svg'
+			fill='none'
+			viewBox='0 0 24 24'
+			strokeWidth='1'
+			stroke='currentColor'
 			className='text-xl text-fore-subtle group-hover:-translate-y-1 transition-transform'
+			height='1.7em'
+			width='1.7em'
 		>
-			<path fill='none' d='M0 0h24v24H0z'></path>
-			<path d='M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10h5v-2h-5c-4.34 0-8-3.66-8-8s3.66-8 8-8 8 3.66 8 8v1.43c0 .79-.71 1.57-1.5 1.57s-1.5-.78-1.5-1.57V12c0-2.76-2.24-5-5-5s-5 2.24-5 5 2.24 5 5 5c1.38 0 2.64-.56 3.54-1.47.65.89 1.77 1.47 2.96 1.47 1.97 0 3.5-1.6 3.5-3.57V12c0-5.52-4.48-10-10-10zm0 13c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3z'></path>
+			<path
+				strokeLinecap='round'
+				strokeLinejoin='round'
+				d='M21.75 6.75v10.5a2.25 2.25 0 01-2.25 2.25h-15a2.25 2.25 0 01-2.25-2.25V6.75m19.5 0A2.25 2.25 0 0019.5 4.5h-15a2.25 2.25 0 00-2.25 2.25m19.5 0v.243a2.25 2.25 0 01-1.07 1.916l-7.5 4.615a2.25 2.25 0 01-2.36 0L3.32 8.91a2.25 2.25 0 01-1.07-1.916V6.75'
+			/>
 		</svg>
 	)
 }
@@ -78,7 +81,7 @@ export const GithubIcon = () => {
 		<svg
 			stroke='currentColor'
 			fill='none'
-			strokeWidth='2'
+			strokeWidth='1'
 			viewBox='0 0 24 24'
 			strokeLinecap='round'
 			strokeLinejoin='round'
@@ -97,7 +100,7 @@ export const LinkedinIcon = () => {
 		<svg
 			stroke='currentColor'
 			fill='none'
-			strokeWidth='2'
+			strokeWidth='1'
 			viewBox='0 0 24 24'
 			strokeLinecap='round'
 			strokeLinejoin='round'
