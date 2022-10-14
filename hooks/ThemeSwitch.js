@@ -26,9 +26,9 @@ export default function ThemeSwitch() {
 			}}
 		>
 			{theme === 'dark' ? (
-					<MoonIcon aria-hidden='true' />
+				<MoonIcon aria-hidden='true' />
 			) : (
-					<SunIcon aria-hidden='true' />
+				<SunIcon aria-hidden='true' />
 			)}
 		</button>
 	)

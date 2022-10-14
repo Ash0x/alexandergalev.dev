@@ -26,17 +26,21 @@ export default function About() {
 						layout='responsive'
 						className='rounded-md'
 						priority
-						quality={100}
 					/>
 				</div>
 				<div className='flex-1 mt-12 md:mt-0 flex flex-col justify-start gap-y-8 pr-20'>
 					<p>
-						My name is Alexander Galev <span className='ampersand'>&amp;</span> I&apos;m a Software Engineer, avid
-						Photographer, Adventurous Traveller, Novice Skier <span className='ampersand'>&amp;</span> decent Rollerblader. Currently
-						residing in Santa Barbara, California.
+						My name is Alexander Galev <span className='ampersand'>&amp;</span>{' '}
+						I&apos;m a Software Engineer, avid Photographer, Adventurous
+						Traveller, Novice Skier <span className='ampersand'>&amp;</span>{' '}
+						decent Rollerblader. Currently residing in Santa Barbara,
+						California.
 					</p>
 					<p>
-						My professional focus is on building web applications, for which I aspire to utilize modern tools. Currently specialized with React, Next.js, Tailwind CSS, Node.js <span className='ampersand'>&amp;</span> MERN stack.
+						My professional focus is on building web applications, for which I
+						aspire to utilize modern tools. Currently specialized with React,
+						Next.js, Tailwind CSS, Node.js{' '}
+						<span className='ampersand'>&amp;</span> MERN stack.
 					</p>
 					<p>Get in touch and let&apos;s create something amazing together!</p>
 					<SocialIcons />

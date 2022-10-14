@@ -4,9 +4,9 @@ import { EmailIcon, GithubIcon, LinkedinIcon } from '../public/icons'
 export default function Footer() {
 	return (
 		<footer className='flex items-center place-content-center'>
-			<p className='text-slate-900 dark:text-amber-500'>
+			<span className='text-slate-900 dark:text-amber-500'>
 				&copy; {new Date().getFullYear()} Alexander Galev
-			</p>
+			</span>
 			<Link href='mailto:alex.galev@yahoo.com'>
 				<a
 					className='ml-5 m-1.5 text-slate-900 dark:text-amber-500 hover:text-amber-500 dark:hover:text-white'

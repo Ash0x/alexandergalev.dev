@@ -1,14 +1,12 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { Disclosure, Transition } from '@headlessui/react'
-import { MenuIcon, XMarkIcon } from '../public/icons'
 
+import { MenuIcon, XMarkIcon } from '../public/icons'
 import ThemeSwitch from '../hooks/ThemeSwitch'
 
 const navigation = [
 	{ name: 'Home', id: 'home', href: '/' },
-	// { name: 'Projects', id: 'projects', href: '/projects'},
-	// { name: 'Blog', id: 'blog', href: '/blog'},
 	{ name: 'About', id: 'about', href: '/about' }
 ]
 
@@ -27,54 +25,51 @@ export default function Header() {
 		<Disclosure as='nav' className='sticky top-0 z-50'>
 			{({ open }) => (
 				<>
-					<div className='w-screen px-2 max-w-full sm:px-6 lg:px-8 backdrop-blur-sm'>
-						<div className='flex h-14 items-center justify-between'>
-							<Link href='/'>
-								<a
-									onClick={() => {
-										setCurrentPage('home')
-									}}
-									className='flex flex-shrink-0 items-center hover:opacity-60'
-								>
-									<span className='text-slate-900 dark:text-white'>
-										alexandergalev
-									</span>
-									<span className='text-amber-500'>.dev</span>
-								</a>
-							</Link>
-							<div className='absolute inset-y-0 right-0 flex items-center sm:hidden'>
-								{/* Mobile menu button*/}
-								<Disclosure.Button className='inline-flex items-center justify-center rounded-md p-2 hover:bg-amber-500 hover:text-slate-900 focus:ring-2 focus:ring-inset'>
-									<span className='sr-only'>Open main menu</span>
-									{open ? (
-										<XMarkIcon className='block h-6 w-6' aria-hidden='true' />
-									) : (
-										<MenuIcon className='block h-6 w-6' aria-hidden='true' />
-									)}
-								</Disclosure.Button>
-							</div>
-							<ThemeSwitch />
-							<div className='space-x-2 flex items-center justify-between sm:items-stretch sm:justify-start'>
-								<div className='hidden sm:ml-6 sm:block mt-0.5'>
-									<div className='flex space-x-6'>
-										{navigation.map((item) => (
-											<Link key={item.name} href={item.href}>
-												<a
-													id={item.id}
-													onClick={handleCurrentPage}
-													className={classNames(
-														item.id === currentPage
-															? 'text-black dark:text-white'
-															: '',
-														'px-0 py-1 rounded-md text-sm font-medium link-underline text-amber-500'
-													)}
-													aria-current={item.current ? 'page' : undefined}
-												>
-													{item.name}
-												</a>
-											</Link>
-										))}
-									</div>
+					<div className='w-screen px-2 max-w-full sm:px-6 lg:px-8 backdrop-blur-sm flex h-14 items-center justify-between'>
+						<Link href='/'>
+							<a
+								onClick={() => {
+									setCurrentPage('home')
+								}}
+								className='flex flex-shrink-0 items-center hover:opacity-60'
+							>
+								<span className='text-slate-900 dark:text-white'>
+									alexandergalev
+								</span>
+								<span className='text-amber-500'>.dev</span>
+							</a>
+						</Link>
+						<ThemeSwitch />
+						<div className='absolute inset-y-0 right-0 flex items-center sm:hidden'>
+							<Disclosure.Button className='inline-flex items-center justify-center rounded-md p-2 hover:bg-amber-500 hover:text-slate-900 focus:ring-2 focus:ring-inset'>
+								<span className='sr-only'>Open main menu</span>
+								{open ? (
+									<XMarkIcon className='block h-6 w-6' aria-hidden='true' />
+								) : (
+									<MenuIcon className='block h-6 w-6' aria-hidden='true' />
+								)}
+							</Disclosure.Button>
+						</div>
+						<div className='space-x-2 flex items-center justify-between sm:items-stretch sm:justify-start'>
+							<div className='hidden sm:ml-6 sm:block mt-0.5'>
+								<div className='flex space-x-6'>
+									{navigation.map((item) => (
+										<Link key={item.name} href={item.href}>
+											<a
+												id={item.id}
+												onClick={handleCurrentPage}
+												className={classNames(
+													item.id === currentPage
+														? 'text-black dark:text-white'
+														: '',
+													'px-0 py-1 rounded-md text-sm font-medium link-underline text-amber-500'
+												)}
+												aria-current={item.current ? 'page' : undefined}
+											>
+												{item.name}
+											</a>
+										</Link>
+									))}
 								</div>
 							</div>
 						</div>

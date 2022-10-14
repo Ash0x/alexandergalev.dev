@@ -7,10 +7,8 @@ module.exports = {
 	],
 	theme: {
 		fontFamily: {
-		  sans: [
-			'Padauk'
-		  ],
-		},
-	  },
+			sans: ['Padauk']
+		}
+	},
 	plugins: []
 }

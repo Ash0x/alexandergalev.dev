@@ -1,6 +1,11 @@
 import Link from 'next/link'
 
-import { EmailIcon, GithubIcon, LinkedinIcon, PaperClipIcon } from '../public/icons'
+import {
+	EmailIcon,
+	GithubIcon,
+	LinkedinIcon,
+	PaperClipIcon
+} from '../public/icons'
 
 export default function SocialIcons() {
 	return (
