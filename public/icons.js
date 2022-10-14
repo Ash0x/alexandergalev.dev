@@ -187,5 +187,5 @@ export const devIcons = [
 	{ iconName: 'devicon-docker-plain', title: 'Docker' },
 	{ iconName: 'devicon-wordpress-plain', title: 'WordPress' },
 	{ iconName: 'devicon-webpack-plain', title: 'Webpack' },
-	{ iconName: 'devicon-babel-original', title: 'Babel' }
+	{ iconName: 'devicon-digitalocean-plain', title: 'DigitalOcean' }
 ]
