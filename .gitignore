@@ -28,6 +28,9 @@ yarn-error.log*
 # local env files
 .env*.local
 
+# static folder for DigitalOcean App Platform
+_static
+
 # vercel
 .vercel
 
