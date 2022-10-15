@@ -40,7 +40,7 @@ export default function Header() {
 							</a>
 						</Link>
 						<ThemeSwitch />
-						<div className='absolute inset-y-0 right-0 flex items-center sm:hidden'>
+						<div className='absolute right-0 sm:hidden'>
 							<Disclosure.Button className='inline-flex items-center justify-center rounded-md p-2 hover:bg-amber-500 hover:text-slate-900 focus:ring-2 focus:ring-inset'>
 								<span className='sr-only'>Open main menu</span>
 								{open ? (
@@ -98,7 +98,7 @@ export default function Header() {
 													item.id === currentPage
 														? 'text-amber-500 dark:text-white'
 														: '',
-													'flex items-centered px-3 py-2 text-base font-medium hover:bg-gray-700 hover:text-white border-b border-b-slate-400 border-opacity-30 pb-2'
+													'flex items-centered p-3 font-medium hover:bg-gray-700 hover:text-white border-b border-b-slate-400 border-opacity-30'
 												)}
 												aria-current={item.current ? 'page' : undefined}
 											>
