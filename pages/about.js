@@ -31,16 +31,25 @@ export default function About() {
 				<div className='flex-1 mt-12 md:mt-0 flex flex-col justify-start gap-y-8 pr-20'>
 					<p>
 						My name is Alexander Galev <span className='ampersand'>&amp;</span>{' '}
-						I&apos;m a Software Engineer, avid Photographer, Adventurous
+						I&apos;m a Software Developer, avid Photographer, Adventurous
 						Traveller, Novice Skier <span className='ampersand'>&amp;</span>{' '}
 						decent Rollerblader. Currently residing in Santa Barbara,
 						California.
 					</p>
 					<p>
-						My professional focus is on building web applications, for which I
-						aspire to utilize modern tools. Currently specialized with React,
-						Next.js, Tailwind CSS, Node.js{' '}
-						<span className='ampersand'>&amp;</span> MERN stack.
+						I graduated with a B.A. in Industrial Economics in 2015{' '}
+						<span className='ampersand'>&amp;</span> ultimately found passion
+						for creating software. I first transitioned into Software
+						Development in 2016. I have a strong desire to pursue a career
+						working in a collaborative environment, where I can contribute to
+						building meaningful software in a most modern{' '}
+						<span className='ampersand'>&amp;</span> forward thinking way.
+					</p>
+					<p>
+						My professional focus is on building web applications. My Frontend
+						tech stack of choice includes React, Next.js, Tailwind CSS{' '}
+						<span className='ampersand'>&amp;</span> I utilize Node.js + Express
+						to build RESTful APIs.
 					</p>
 					<p>Get in touch and let&apos;s create something amazing together!</p>
 					<SocialIcons />
