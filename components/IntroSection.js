@@ -8,7 +8,7 @@ export default function IntroSection() {
 		<section className='w-full flex flex-col-reverse md:flex-row justify-start text-slate-900 dark:text-amber-500 mt-20 mb-20'>
 			<div className='flex-1 flex flex-col gap-y-4'>
 				<h1 className='text-4xl'>Alexander Galev</h1>
-				<h2 className='text-xl'>Full Stack Developer</h2>
+				<h2 className='text-xl'>Software Developer</h2>
 				<p className='max-w-sm'>
 					Developing web applications throughout all software development
 					lifecycle phases: designing, implementation, testing &amp; deployment.

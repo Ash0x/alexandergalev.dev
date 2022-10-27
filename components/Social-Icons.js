@@ -10,7 +10,7 @@ import {
 export default function SocialIcons() {
 	return (
 		<div className='flex items-center'>
-			<Link href='/Resumé.pdf'>
+			<Link href='/resume.pdf'>
 				<a
 					className='flex items-center hover:text-amber-500 dark:hover:text-white py-1 px-3 border-2 hover:drop-shadow-md border-amber-500 hover:border-red-700 rounded focus:ring-2'
 					target='_blank'

@@ -180,12 +180,12 @@ export const devIcons = [
 	{ iconName: 'devicon-react-original', title: 'React.js' },
 	{ iconName: 'devicon-nextjs-original', title: 'Next.js' },
 	{ iconName: 'devicon-tailwindcss-plain', title: 'Tailwind' },
+	{ iconName: 'devicon-materialui-plain', title: 'MaterialUI' },
 	{ iconName: 'devicon-git-plain', title: 'Git' },
 	{ iconName: 'devicon-npm-original-wordmark', title: 'NPM' },
 	{ iconName: 'devicon-jest-plain', title: 'Jest' },
 	{ iconName: 'devicon-mongodb-plain', title: 'MongoDB' },
 	{ iconName: 'devicon-docker-plain', title: 'Docker' },
 	{ iconName: 'devicon-wordpress-plain', title: 'WordPress' },
-	{ iconName: 'devicon-webpack-plain', title: 'Webpack' },
 	{ iconName: 'devicon-digitalocean-plain', title: 'DigitalOcean' }
 ]
